@@ -46,8 +46,11 @@ google-indexing-api/
 Откройте PowerShell в папке проекта и выполните:
 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # (по необходимости)
+
 npm init -y
+
 npm install axios googleapis
+
 npm install googleapis@latest google-auth-library@latest
 
 
